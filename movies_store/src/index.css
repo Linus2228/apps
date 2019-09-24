@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 20px 0 0 0;
+    font-family: sans-serif;
+}
+
+.pagination {
+    justify-content: center;
+}
+
+.col-2 {
+    margin-right: 50px;
+}
+
+.list-group {
+    width: 150px;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.table th {
+    cursor: pointer;
+}

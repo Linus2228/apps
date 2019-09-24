@@ -1,0 +1,70 @@
+
+ /*----------Common------------*/
+
+ @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:300,500');
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+.pb50 {
+  padding-bottom: 50px;
+}
+
+.pb25 {
+  padding-bottom: 25px;
+}
+
+.mb25 {
+  margin-bottom: 25px;
+}
+
+ /*----------Header------------*/
+
+.main-logo {
+  font-size: 30px;
+}
+
+.common-h {
+	padding: 20px;
+}
+
+ /*----------SearchBar------------*/
+
+ .form-control {
+ margin-bottom: 25px;
+ }
+
+ /*----------Playlist------------*/
+
+ .table .btn {
+ 	cursor: pointer;
+ }
+
+ /*----------Player------------*/
+
+.player {
+	padding: 25px;
+}
+
+.audio-player {
+	width: 100%;
+}
+
+.player-btn {
+    padding: 13px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 1px 2px 10px rgba(0,0,0,0.3);
+    margin-right: 5px;
+}

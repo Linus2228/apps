@@ -1,0 +1,34 @@
+{
+    "name": "vidly",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "bootstrap": "^4.1.1",
+        "classnames": "^2.2.6",
+        "font-awesome": "^4.7.0",
+        "hoist-non-react-statics": "^3.0.1",
+        "lodash": "^4.17.11",
+        "prop-types": "^15.6.2",
+        "react": "^16.4.1",
+        "react-dom": "^16.4.1",
+        "react-router-dom": "4.3.1",
+        "react-scripts": "1.1.4",
+        "joi-browser": "13.4",
+        "axios": "0.18.0",
+        "react-toastify": "4.1",
+        "raven-js": "3.26.4",
+        "jwt-decode": "2.2.0"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    },
+    "prettier": {
+        "trailingComma": "es5",
+        "tabWidth": 4,
+        "semi": true,
+        "singleQuote": true
+    }
+}

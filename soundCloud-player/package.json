@@ -1,0 +1,40 @@
+{
+  "name": "ee-grow-yourself",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.2",
+    "react": "^15.6.1",
+    "react-bootstrap": "^0.31.2",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.0",
+    "react-scripts": "1.0.11",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-form": "^7.0.4",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "nodemon server/index.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "test:lint": "eslint **/*.js",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.3.0",
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31",
+    "node-sass": "^4.5.3",
+    "nodemon": "^1.11.0",
+    "react-dom-server": "0.0.5",
+    "redux": "^3.7.2",
+    "sass-loader": "^6.0.6"
+  }
+}
